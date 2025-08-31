@@ -1,0 +1,104 @@
+# _data/locales/tr.yml
+
+# Genel
+post:
+  written_by: "Yazar:"
+  posted: "Tarih:"
+  updated: "Güncellendi"
+  words: "kelime"
+  pageview_measure: "görüntülenme"
+  read_time:
+    unit: "dk"
+    prompt: " okuma süresi"
+  relate_posts: "İlgili Yazılar"
+  share: "Paylaş"
+  button:
+    next: "Sonraki"
+    previous: "Önceki"
+    copy_code:
+      succeed: "Kopyalandı!"
+    share_link:
+      title: "Bağlantıyı kopyala"
+      succeed: "Bağlantı kopyalandı!"
+
+# Ana sayfa
+main:
+  trending_tags: "Popüler Etiketler"
+  no_results: "Üzgünüz, hiçbir sonuç bulunamadı."
+
+# Sayfalama
+pagination:
+  newer: "Daha Yeni"
+  older: "Daha Eski"
+
+# Panel (yan menü)
+panel:
+  lastmod: "Son Güncellenen"
+  trending_tags: "Popüler Etiketler"
+  toc: "İçindekiler"
+
+# Arama
+search:
+  label: "Ara"
+  cancel: "İptal"
+  no_results: "Sonuç bulunamadı."
+  hint: "Araştır"
+
+# Yorumlar
+comments:
+  new: "Yeni yorum"
+  reply: "Yanıtla"
+  write: "Yorum yazın"
+  cancel: "İptal"
+
+# Sekmeler
+tabs:
+  home: "Ana Sayfa"
+  categories: "Kategoriler"
+  tags: "Etiketler"
+  archives: "Arşiv"
+  about: "Hakkında"
+
+# Arşiv
+archives:
+  title: "Arşiv"
+
+# Kategoriler
+categories:
+  title: "Kategoriler"
+
+# Etiketler
+tags:
+  title: "Etiketler"
+
+# Hakkında
+about:
+  title: "Hakkında"
+
+# 404 sayfası
+not_found:
+  statment: "Üzgünüz, URL'yi yanlış yerleştirdik veya bir şeye işaret etmiyor."
+  hint_template: ":URL adresinden ana sayfaya dönebilirsiniz."
+  hint_link_text: "buraya"
+
+# Bildirimler
+notification:
+  update_found: "Yeni bir sürüm mevcut."
+  update: "Güncelle"
+
+# Sosyal medya paylaşım butonları
+share:
+  twitter: "Twitter"
+  facebook: "Facebook"
+  linkedin: "LinkedIn"
+  telegram: "Telegram"
+  whatsapp: "WhatsApp"
+  email: "E-posta"
+  title: "Paylaş"
+
+# Tarih formatları
+df:
+  post:
+    strftime: "%b %e, %Y"
+  archives:
+    strftime: "%b"
