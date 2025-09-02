@@ -42,7 +42,7 @@ search:
   label: "Ara"
   cancel: "İptal"
   no_results: "Sonuç bulunamadı."
-  hint: "Araştır"
+  hint: "Ara"
 
 # Yorumlar
 comments:
