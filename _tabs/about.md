@@ -5,5 +5,5 @@ order: 4
 title: About
 ---
 
-> Bu sayfa henüz hazır değil. 
+> This page is currently under maintenance as I update my professional background and cybersecurity journeys. 
 {: .prompt-warning }
