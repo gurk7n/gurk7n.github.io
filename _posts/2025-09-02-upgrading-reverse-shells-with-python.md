@@ -2,7 +2,7 @@
 title: "Upgrading Reverse Shells with Python"
 date: 2025-09-02 10:58:00 +0300
 image: /assets/img/posts/upgrading-reverse-shells-with-python/cover.jpg
-categories: [Pentest]
+categories: [Post-Exploitation]
 tags: [python, shell, linux]
 ---
 
