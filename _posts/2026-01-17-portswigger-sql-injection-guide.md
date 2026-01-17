@@ -3,7 +3,7 @@ title: "SQL Injection: The PortSwigger Lab Guide"
 date: 2026-01-17 12:56:00 +0300
 image: /assets/img/posts/portswigger-sql-injection-guide/cover.jpg
 categories: [Web Security, Write-ups]
-tags: [sql injection, portswigger, web security, blind sqli, oast, write-up, owasp top 10]
+tags: [SQL Injection, PortSwigger, Web Security, Blind SQLi, OAST, Write-up, OWASP Top 10]
 ---
 
 ## Core Concept
@@ -24,9 +24,9 @@ To find a potential entry point, test every input with these payloads:
 When an application filters results (e.g., `WHERE released = 1`), you can use SQL comments (`--`) to bypass the filter and see hidden items.
 
 * **Original Query:** `SELECT * FROM products WHERE category = 'Gifts' AND released = 1`
-* **Payload:** `'--`
+* **Payload:** `--`
 * **Resulting Query:** `SELECT * FROM products WHERE category = 'Gifts'--' AND released = 1`
 
 ### **Lab 1: Hidden Data Retrieval**
 * **Goal:** Display all products in a specific category, including unreleased ones.
-* **Solution:** Append `'--` to the `category` parameter to comment out the rest of the query and ignore the `released = 1` condition.
+* **Solution:** Append `--` to the `category` parameter to comment out the rest of the query and ignore the `released = 1` condition.

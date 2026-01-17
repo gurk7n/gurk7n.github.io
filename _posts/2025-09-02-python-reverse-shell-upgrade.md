@@ -3,7 +3,7 @@ title: "How to Upgrade Reverse Shell to Fully Interactive TTY with Python"
 date: 2025-09-02 10:58:00 +0300
 image: /assets/img/posts/python-reverse-shell-upgrade/cover.jpg
 categories: [Post-Exploitation]
-tags: [reverse shell, post-exploitation, python, ctf tips]
+tags: [Reverse Shell, Post-Exploitation, Python, CTF Tips]
 ---
 
 When you obtain a reverse shell, you typically encounter a limited environment. For example, you cannot use `Ctrl+C` to cancel commands,  `Tab` completion for paths doesn't work, and the `clear` ommand fails to clean the terminal screen. Fortunately, Python’s `pty` module can be used to spawn a more functional, interactive shell.
