@@ -29,4 +29,7 @@ When an application filters results (e.g., `WHERE released = 1`), you can use SQ
 
 ### **Lab 1: Hidden Data Retrieval**
 * **Goal:** Display all products in a specific category, including unreleased ones.
+
+![Spawning an interactive shell using Python PTY module](/assets/img/posts/python-reverse-shell-upgrade/img1.png){: width="972" height="589" }
+
 * **Solution:** Append `--` to the `category` parameter to comment out the rest of the query and ignore the `released = 1` condition.
