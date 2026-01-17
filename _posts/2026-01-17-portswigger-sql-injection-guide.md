@@ -26,3 +26,7 @@ When an application filters results (e.g., `WHERE released = 1`), you can use SQ
 * **Original Query:** `SELECT * FROM products WHERE category = 'Gifts' AND released = 1`
 * **Payload:** `'--`
 * **Resulting Query:** `SELECT * FROM products WHERE category = 'Gifts'--' AND released = 1`
+
+### **Lab 1: Hidden Data Retrieval**
+* **Goal:** Display all products in a specific category, including unreleased ones.
+* **Solution:** Append `'--` to the `category` parameter to comment out the rest of the query and ignore the `released = 1` condition.
