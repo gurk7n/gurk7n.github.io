@@ -6,11 +6,9 @@ categories: [Cybersecurity]
 tags: [OSINT, Identity Research, Information Gathering, Reconnaissance, Digital Footprint]
 ---
 
-## Overview: The Reconnaissance Methodology
+This is a curated collection of high-efficiency OSINT resources, categorized by research requirements. No fluff, just the tools.
 
-Reconnaissance is the foundational step of any cybersecurity operation, focusing on the systematic gathering of publicly available information. This is a curated collection of high-efficiency OSINT resources, categorized by research requirements. No fluff, just the tools.
-
-## 1. Identity & Social Mapping (SOCMINT)
+## Identity & Social Mapping (SOCMINT)
 
 Used for tracking usernames, real names, and social footprints.
 
@@ -21,7 +19,7 @@ Used for tracking usernames, real names, and social footprints.
 * **[Phonebook.cz](https://phonebook.cz/):** Lists emails and subdomains for target domains.
 * **[Wayback Machine](https://web.archive.org/):** Allowing users to view historical snapshots of websites and deleted content.
 
-## 2. Imagery & Geospatial Intelligence (IMINT / GEOINT)
+## Imagery & Geospatial Intelligence (IMINT / GEOINT)
 
 * **[Google Lens](https://lens.google.com/):** Fast identification of objects, landmarks, and text.
 * **[Yandex Images](https://yandex.com/images/):** Superior facial recognition and profile matching results compared to other search engines.
@@ -29,7 +27,7 @@ Used for tracking usernames, real names, and social footprints.
 * **[ExifTool](https://exiftool.org/):** Essential command-line tool for extracting GPS coordinates and metadata from image files.
 * **[Wikimapia](https://wikimapia.org/):** An open-content collaborative map that provides detailed site analysis for GEOINT.
 
-## 3. Technical Reconnaissance & Network Footprinting
+## Technical Reconnaissance & Network Footprinting
 
 * **[Shodan](https://www.shodan.io/):** Search engine for internet-connected devices and vulnerabilities.
 * **[Censys](https://censys.io/):** Infrastructure analysis tool for discovering host configurations and certificates.
@@ -40,7 +38,7 @@ Used for tracking usernames, real names, and social footprints.
 * **[Whoxy](https://www.whoxy.com/):** Comprehensive WHOIS search engine for historical domain ownership data.
 * **[ipify](https://www.ipify.org/):** A simple and reliable public IP address API for network scripts.
 
-## 4. Breach Intelligence
+## Breach Intelligence
 
 * **[Snusbase](https://snusbase.com/):** High-speed database for searching leaked credentials and aliases.
 * **[Have I Been Pwned](https://haveibeenpwned.com/):** The industry standard for checking email and phone data breaches.
