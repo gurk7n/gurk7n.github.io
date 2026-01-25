@@ -41,7 +41,7 @@ Used for tracking usernames, real names, and social footprints.
 * **[Whoxy](https://www.whoxy.com/):** Comprehensive WHOIS search engine for historical domain ownership data.
 * **[ipify](https://www.ipify.org/):** A simple and reliable public IP address API for network scripts.
 
-## Breach Intelligence
+## Breach Intelligence & Data Leak Analysis
 
 * **[Snusbase](https://snusbase.com/):** High-speed database for searching leaked credentials and aliases.
 * **[Have I Been Pwned](https://haveibeenpwned.com/):** The industry standard for checking email and phone data breaches.
