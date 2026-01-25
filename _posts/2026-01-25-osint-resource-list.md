@@ -4,7 +4,6 @@ date: 2026-01-25 13:17:00 +0300
 image: /assets/img/posts/osint-resource-list/cover.jpg
 categories: [Cybersecurity]
 tags: [OSINT, Identity Research, Information Gathering, Reconnaissance, Digital Footprint]
-published: true
 ---
 
 This is a curated collection of high-efficiency OSINT resources, categorized by research requirements. No fluff, just the tools.
