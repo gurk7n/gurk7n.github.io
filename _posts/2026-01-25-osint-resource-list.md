@@ -23,7 +23,7 @@ Used for tracking usernames, real names, and social footprints.
 * **[Yandex Images](https://yandex.com/images/):** Superior facial recognition and profile matching results compared to other search engines.
 * **[PimEyes](https://pimeyes.com/):** AI-powered face search engine for tracking visual digital footprints across the web.
 * **[ExifTool](https://exiftool.org/):** Essential command-line tool for extracting GPS coordinates and metadata from image files.
-* **[Wikimapia](http://wikimapia.org/):** An open-content collaborative map that provides detailed site analysis for GEOINT.
+* **[Wikimapia](https://wikimapia.org/):** An open-content collaborative map that provides detailed site analysis for GEOINT.
 
 ## 3. Technical Reconnaissance & Network Footprinting
 
