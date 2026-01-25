@@ -4,6 +4,7 @@ date: 2026-01-25 13:17:00 +0300
 image: /assets/img/posts/the-osint-guide/cover.jpg
 categories: [Cybersecurity]
 tags: [OSINT, Identity Research, Information Gathering, Reconnaissance, Digital Footprint]
+published: false
 ---
 
 ## Introduction: The Power of Information Gathering
