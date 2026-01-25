@@ -9,15 +9,6 @@ published: true
 
 This is a curated collection of high-efficiency OSINT resources, categorized by research requirements. No fluff, just the tools.
 
-## Overview: The Intelligence Cycle
-
-Modern reconnaissance is the art of connecting fragmented data. This guide organizes the essential toolkit into four strategic pillars of digital investigation:
-
-* **Identity Mapping:** Establishing connections between aliases and social personas.
-* **Visual Intelligence:** Extracting location and context from imagery and geospatial data.
-* **Network Footprinting:** Mapping technical infrastructure and digital assets.
-* **Breach Analysis:** Investigating historical data leaks for credential patterns.
-
 ## 1. Identity & Social Mapping (SOCMINT)
 
 Used for tracking usernames, real names, and social footprints.
