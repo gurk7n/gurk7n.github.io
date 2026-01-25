@@ -4,7 +4,7 @@ date: 2026-01-17 12:56:00 +0300
 image: /assets/img/posts/portswigger-sql-injection-guide/cover.jpg
 categories: [Web Security, Write-ups]
 tags: [SQL Injection, PortSwigger, Web Security, Blind SQLi, OAST, Write-up, OWASP Top 10]
-published: true
+published: false
 ---
 
 ## Core Concept

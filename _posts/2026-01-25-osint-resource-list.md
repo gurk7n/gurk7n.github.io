@@ -13,7 +13,7 @@ This is a curated collection of high-efficiency OSINT resources, categorized by 
 
 Used for tracking usernames, real names, and social footprints.
 
-* **Syntax Break:** `'` (Check for database errors or anomalies)
-* **Boolean Logic:** `OR 1=1` vs `OR 1=2` (Check for systematic differences in the application’s responses)
-* **Time Delays:** `pg_sleep(10)` or `sleep(10)` (Check for differences in the time taken to respond)
-* **OAST Payloads:** Designed to trigger an out-of-band network interaction (e.g., `DNS` lookup)
+* **[IDCrawl](https://www.idcrawl.com/):** Web-based aggregator for usernames and public records.
+* **[Sherlock](https://github.com/sherlock-project/sherlock):** Powerful CLI tool to hunt usernames across 400+ platforms.
+* **[Maigret](https://github.com/soxoj/maigret):** Advanced username crawler that scrapes profile data for correlation.
+* **[Epieos](https://epieos.com/):** Reverse email lookup to find linked social accounts without notification.
