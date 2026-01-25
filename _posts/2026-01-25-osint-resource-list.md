@@ -8,8 +8,8 @@ tags: [OSINT, Identity Research, Information Gathering, Reconnaissance, Digital 
 
 This is a curated collection of high-efficiency OSINT resources, categorized by research requirements. No fluff, just the tools.
 
-> **Attention:** Misuse of these OSINT tools can lead to legal consequences. Use them responsibly and at your own risk.
-{: .prompt-danger }
+> Strictly for authorized research; author assumes no liability for any misuse. Use at your own risk.
+{: .prompt-warning }
 
 ## Identity & Social Mapping (SOCMINT)
 
