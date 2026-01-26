@@ -6,16 +6,20 @@ categories: [Writeups]
 tags: [HackTheBox, IDOR, Linux Capabilities, PCAP Analysis, Privilege Escalation, Nmap, Wireshark, Python, GTFOBins]
 ---
 
-In this article, I will explain how I solved the Cap machine problem on the HackTheBox platform.
+In this write-up, I will demonstrate the step-by-step exploitation of the Cap machine on the HackTheBox platform. Cap is an easy-rated Linux box that provides an excellent environment for practicing network traffic analysis, identifying Insecure Direct Object Reference (IDOR) vulnerabilities, and exploiting misconfigured Linux capabilities for privilege escalation.
 
 ## Enumeration
 
-First, I used the nmap tool to scan for open ports on the target machine.
+I started by using the Nmap tool to perform a deep scan of the target machine's active services and open ports.
 
 ```bash
 sudo nmap -T5 -sSCV 10.129.9.159
 ```
 
-After scanning, I found that ports 21, 22, and 80 were open. FTP, SSH, and HTTP services are running on these ports.
+The scan results revealed three critical entry points:
 
 ![HackTheBox Cap Nmap Scan](/assets/img/posts/hackthebox-cap-writeup/img1.png){: width="972" }
+
+* **Port 21 (FTP):** vsftpd 3.0.3
+* **Port 22 (SSH):** OpenSSH 8.2p1
+* **Port 80 (HTTP):** Gunicorn
