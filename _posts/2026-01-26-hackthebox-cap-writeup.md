@@ -18,4 +18,4 @@ sudo nmap -T5 -sSCV 10.129.9.159
 
 After scanning, I found that ports 21, 22, and 80 were open. FTP, SSH, and HTTP services are running on these ports.
 
-![Nmap scan results of the target machine](/assets/img/posts/hackthebox-cap-writeup/img1.png){: width="972" }
+![Nmap scan results of the target machine](/assets/img/posts/hackthebox-cap-writeup/img2.png){: width="972" }
