@@ -19,7 +19,7 @@ First, use the PTY module to spawn a `/bin/bash` shell:
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
-![Spawning an interactive shell using Python PTY module](/assets/img/posts/python-reverse-shell-upgrade/img1.png){: width="972" height="589" }
+![Spawning an interactive shell using Python PTY module](/assets/img/posts/python-reverse-shell-upgrade/python-reverse-shell-tty-upgrade.png){: width="972" height="589" }
 
 This step makes the shell more interactive, but some limitations like `Ctrl+C` behavior—still persist. To fix this, we need to adjust our local terminal settings.
 
